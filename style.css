@@ -118,6 +118,13 @@ body {
     accent-color: #5e81f4;
 }
 
+.mensagem-lista-vazia {
+    display: block;
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .conteudo__card,
     .conteudo__tarefas {

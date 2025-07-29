@@ -1,6 +1,7 @@
 let contador = 0;
 
 export function criarItemDaLista(evento) {
+
     if (evento === "") {
         alert("Por favor, digite uma tarefa.");
         return
