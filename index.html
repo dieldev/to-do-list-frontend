@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+    <main class="conteudo">
+        <section class="conteudo__nova-tarefa conteudo__card">
+            <h1 class="conteudo__nova-tarefa-titulo">Lista de Tarefas</h1>
+            <input type="text" id="input-item" class="conteudo__nova_tarefa-input" placeholder="Digite uma nova tarefa">
+            <button class="conteudo__nova_tarefa-adicionar" id="botao-adicionar">Adicionar</button>
+        </section>
+
+        <section class="conteudo__tarefas">
+            <ul class="conteudo__tarefa_itens" id="lista-tarefas">
+                <li class="tarefa__item card__nova_tarefa">
+                    <input type="checkbox" class="tarefa__checkbox">
+                    <span class="tarefa__texto">Buscar o cachorro no banho e tosa</span>
+                    <button class="tarefa__botao-remover">Remover</button>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+</body>
+</html>
