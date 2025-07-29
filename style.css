@@ -125,6 +125,18 @@ body {
     text-align: center;
 }
 
+.ancoraGithub {
+    color: #5e81f4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.ancoraGithub:hover {
+    color: #4666c9;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     .conteudo__card,
     .conteudo__tarefas {
